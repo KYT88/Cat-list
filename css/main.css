@@ -157,6 +157,12 @@
          font-size: 45px;
         }
 
+        .aa:hover{           
+            font-size: 48px;
+            margin: 0px;
+            padding: 3px;
+            align-items: center;
+        }
            
     }
    
