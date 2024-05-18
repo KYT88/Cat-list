@@ -158,11 +158,16 @@
         }
 
         .aa:hover{           
-            font-size: 48px;
+            font-size: 45px;
             margin: 0px;
-            padding: 3px;
+            padding: 0px;
             align-items: center;
         }
+        .aa:active{
+            margin: 0px;
+            padding: 0px;
+        }
+    
            
     }
    
