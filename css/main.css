@@ -138,7 +138,7 @@
             
             display: grid;
             grid-template-rows: 110px 110px 110px 110px 110px 110px;
-            grid-template-columns: 65px 65px 65px 65px 65px;    
+            grid-template-columns: 68px 68px 68px 68px 68px;    
             padding: 8vb;
         }
 
@@ -154,22 +154,17 @@
          color: black;
          display: flex;
          align-items: center;
-         font-size: 45px;
+         font-size: 40px;
         }
 
         .aa:hover{           
-            font-size: 45px;
-            margin: 0px;
-            padding: 0px;
-            align-items: center;
-        }
-        
-        .aa:active{
-            margin: 0px;
-            padding: 0px;
-        }
-    
            
+            height: 50px;
+            width: 30px;
+            margin: 0px;
+            padding: 15px;        
+        }
+                     
     }
    
 
@@ -177,10 +172,6 @@
     .aa:hover{
         background-color: #006e58;
         color: white;
-        font-size: 86px;
-        margin: 10px;
-        padding: 10px;
-        align-items: right;
     }
 
     .aa:active{
