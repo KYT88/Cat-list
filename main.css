@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+   .header {
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: xx-large;
+     color: white;
+     width: auto;
+     height: 40vh;
+     border-style: solid;    
+     border-color: ghostwhite;
+     box-sizing: border-box;
+     background-color: rgb(17, 170, 94);
+     padding: 5%;
+   }
+   
+    .navbar {
+        overflow: hidden;
+        background-color: grey;
+    }
+    
+    /* Links inside the navbar */
+    .navbar a {
+        float: left;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        text-align: center;
+        padding: 12px 16px;
+        text-decoration: none;
+    }
+    
+    /* The dropdown container */
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    
+    /* Dropdown button */
+    .dropdown .dropbtn {
+        font-size: 20px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 12px 16px;
+        background-color: inherit;
+        font-family: 'Times New Roman', Times, serif; /* Important for vertical align on mobile phones */
+        margin: 0; /* Important for vertical align on mobile phones */
+    }
+    
+    /* Add a red background color to navbar links on hover */
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: darkgreen;
+    }
+    
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgb(226, 226, 226);
+        min-width: 160px;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: black;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+    /* Add a grey background color to dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: grey;
+        color: white;
+    }
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .mn-board
+    {
+      display: flex;
+      justify-content: center;
+      
+    }
+    
+    .text{
+      font-size: x-large;
+
+    }
+
+    .board{
+        
+        display: grid;
+        grid-template-rows: 175px 175px 175px 175px 175px 175px;
+        grid-template-columns: 200px 200px 200px 200px 200px;    
+        padding: 80px;
+    }
+    .aa
+    {
+     display: flex;
+     width: 100px;
+     height: 100px;
+     border-radius: 10px;
+     padding: 10px;
+     margin: 5px;
+     border: 1px solid rgb(60, 60, 60);
+     background-color: #f3fdfd;
+     color: black;
+     display: flex;
+     align-items: right;
+     font-size: 64px;
+    }
+
+    /*.board2=mobile .board = pc*/
+    @media screen and (min-width: 1000px){ 
+
+    .mn
+    {
+      display: flex;
+      justify-content: left;
+      
+    }
+    .text
+    {
+        justify-content: left;
+        display: grid;
+        grid-template-rows: 200px 100px 300px ;
+        grid-template-columns: 500px ;
+        text-align: left;
+        padding: 1vb;
+        margin: 10vb;
+    }
+    
+    }
+
+
+    @media screen and (max-width: 1000px){ 
+
+        .header{ 
+            height: 25vb;
+            padding: 30px;
+            text-align: center;
+                
+        }
+        .header > h1
+        {
+            font-size: 45px;
+        }
+        
+
+        .board{    
+            
+            display: grid;
+            grid-template-rows: 110px 110px 110px 110px 110px 110px;
+            grid-template-columns: 68px 68px 68px 68px 68px;    
+            margin-top: 8vb;
+            padding: 0;
+        }
+
+        .aa
+        {
+         display: flex;
+         border-radius: 10px;
+         width: 30px;
+         height: 50px;
+         padding: 15px;
+         margin: 0px;        
+         background-color: #f3fdfd;
+         color: black;
+         display: flex;
+         align-items: center;
+         font-size: 40px;
+        }
+
+        .aa:hover{           
+           
+            height: 50px;
+            width: 30px;
+            margin: 0px;
+            padding: 15px;        
+        }
+        
+        .text > h1 
+        {
+            display: grid;
+            grid-template-columns: 350px ;
+            margin-top: 30px;
+            
+        }
+        .text
+        {
+            
+            display: grid;
+            grid-template-rows: 200px 100px 550px;
+            grid-template-columns: 320px ;
+            text-align: left;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        
+    }
+   
+
+    
+    .aa:hover{
+        background-color: #006e58;
+        color: white;
+    }
+
+    .aa:active{
+        background-color: rgb(65, 115, 145);
+    }
+ 
+
