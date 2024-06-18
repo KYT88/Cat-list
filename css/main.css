@@ -133,19 +133,23 @@
 
     section
     {
+        display: grid;
+        background-color: white;
+    }
+
+    .tab
+    {
         display: flex;
         justify-content: center;
         background-color: white;
-    }
-    .tab
-    {
-        background-color: white;
-        width: 120vh;
-        padding: 5px;
+        width: 100%;
+        padding: 20px;
         margin-bottom: 10vh;
     }
      th,td
     {
+        
+        width: 220px;
         font-size: xx-large;
         background-color: #f3fdfd;
         border-radius: 4px;
@@ -238,9 +242,16 @@
             grid-template-rows: 200px 100px 550px;
             grid-template-columns: 320px ;
             text-align: left;
-            padding: 5px;
-            margin: 5px;
+            padding: 2.5% ;
+            margin-left: 5%;
         }
+       
+        th,td
+        {
 
+        width: 1fr;
+        font-size: large;
+  
+        }
         
     }
